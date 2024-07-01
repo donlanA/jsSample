@@ -1,0 +1,43 @@
+body {
+  background-color: rgb(31, 31, 31);
+}
+
+h3 {
+  color:white;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.example {
+  height: 400px;
+  padding: 5px 20px;
+  float: left;
+  border: 5px gray solid;
+  border-right-width: 0px;
+  margin: 0;
+}
+
+#special {
+  border-right-width: 5px;
+}
+
+input {
+  border: 0px;
+  background-color: rgb(218, 218, 218);
+  color:black;
+  height: 25px;
+}
+
+button {
+  color: white;
+  width: 70px;
+  padding: 4px;
+  font-size: 12px;
+  background-color: #3a3a3a;
+  border-bottom-color: #fff;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+button:hover {
+  background-color: rgb(104, 104, 104);
+}
