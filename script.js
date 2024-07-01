@@ -64,7 +64,7 @@ const ans4 = document.getElementById('input4');
 
 let d;
 
-btn3.addEventListener('click', () => {
+btn4.addEventListener('click', () => {
   console.log('while loop -----');
   d = Number(ans4.value);
   let count=0;
